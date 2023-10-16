@@ -1,0 +1,36 @@
+a {
+  color: black;
+}
+.saw {
+  color: rgb(141, 176, 80);
+}
+.active {
+  color: blue;
+}
+h1 {
+font-size: 55px;
+text-align: right;
+border-bottom: 2px solid rgb(141, 176, 80);
+margin: 0px;
+padding: 20px;
+color: rgb(93, 129, 31);
+}
+
+ol {
+width: 100px;
+margin: 0px;
+padding: 20px;
+border-right: 2px solid rgb(141, 176, 80);
+}
+
+body {
+margin: 0px;
+}
+div {
+  border: 5px solid rgb(141, 176, 80);
+}
+#grid {
+  border: 5px solid white;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
